@@ -15,15 +15,15 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Gangmin Li"
+locale                   : "en-UK"
+title                    : "Gangmin Li' Web Page"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : #""
 name                     : "Gangmin Li"
-description              : #"My web site."
+description              : "My web site."
 url                      : "https://gangminli.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "GangminLI/GangminLi.github.io"
+repository               : "GangminLi/GangminLi.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Gangmin Li"
   avatar           : "/assets/images/me.png"
-  bio              : "Data Scientist"
-  location         : "Cambridge"
+  bio              : "An Edicationer in Data Science"
+  location         : "Cambridge, UK"
   email            : "gmli64@gmail.com"
   links:
     - label: "Email"

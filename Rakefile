@@ -66,7 +66,7 @@ task :preview do
         exit 0
       end
 
-      loop { sleep 1000 }
+      loop { sleep 100 }
     end
   rescue ThreadError
     # You pressed Ctrl-C, oh my!
