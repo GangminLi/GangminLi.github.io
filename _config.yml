@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Gangmin Li"
-  avatar           : "/assets/images/me.jpg"
+  avatar           : "/assets/images/me.png"
   bio              : "Data Scientist"
   location         : "Cambridge"
   email            : "gmli64@gmail.com"
