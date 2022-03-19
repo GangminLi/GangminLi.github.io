@@ -302,3 +302,5 @@ defaults:
       related: true
 
 
+
+theme: jekyll-theme-slate
