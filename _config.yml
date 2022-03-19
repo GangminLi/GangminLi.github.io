@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Gangmin Li' Web Page"
+title                    : "Gangmin Li's Web Page"
 title_separator          : "-"
 subtitle                 : #""
-name                     : "Gangmin Li"
+name                     : #"Gangmin Li"
 description              : "My web site."
 url                      : "https://gangminli.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
