@@ -6,7 +6,9 @@ main:
   #  url: /blog/
   - title: "Publications"
     url: /pub/
-  - title: "News"
+  - title: "Teach"
     url: /news/
-  - title: "Resources"
+  - title: "Consultancy"
     url: /res/
+   - title: "News"
+    url: /news/
