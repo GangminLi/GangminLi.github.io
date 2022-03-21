@@ -19,13 +19,13 @@ locale                   : "en-UK"
 title                    : "Gangmin Li's Web Page"
 title_separator          : #"-"
 subtitle                 : #""
-name                     : #"Gangmin Li"
+name                     : #""
 description              : "Gangmin Li, Gary Li"
 url                      : "https://gangminli.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "GangminLi/GangminLi.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/me.png"
+logo                     : #"/assets/images/me.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
