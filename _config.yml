@@ -15,15 +15,15 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-UK"
-title                    : "Gangmin Li's Web Page"
+locale                   : "en-US"
+title                    : "Renesh Bedre"
 title_separator          : "-"
-subtitle                 : #""
-name                     : #"Gangmin Li"
-description              : "My web site."
-url                      : "https://gangminli.github.io/"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Renesh Bedre"
+description              : #"An amazing website."
+url                      : "https://reneshbedre.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "GangminLi/GangminLi.github.io"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : GaryLi
+  username               : renbedre
 facebook:
   username               :
   app_id                 :
@@ -94,71 +94,64 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gangmin Li"
+  name             : "Renesh Bedre"
   avatar           : "/assets/images/me.png"
-  bio              : "An Edicationer in Data Science"
-  location         : "Cambridge, UK"
-  email            : "gmli64@gmail.com"
+  bio              : "Bioinformatics Scientist"
+  location         : "Texas A&M University"
+  email            : "reneshbe@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:gmli64@gmail.com
+      # url: mailto:reneshbe@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://gangminli.github.io/"
+      url: "https://reneshbedre.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/GaryLi"
+      url: "https://twitter.com/renbedre"
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/gary-gangmin-li-758562b/"
+      url: "https://www.linkedin.com/in/reneshbedre/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/gary.li.31586"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/GangminLi"
+      url: "https://github.com/reneshbedre"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "CV"
       icon: "ai ai-cv-square"
-      url: "/assets/cv/cv.pdf"
+      url: "/assets/cv/Bedre_CV_May12020.pdf"
 
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:gmli64@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://gangminli.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/GaryLi"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/gary-gangmin-li-758562b/"
+      url: "https://twitter.com/renbedre"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/gary.li.31586"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/GangminLi"
+      url: "https://github.com/reneshbedre"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-    - label: "CV"
-      icon: "ai ai-cv-square"
-      url: "/assets/cv/cv.pdf"
-
+      # url:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square"
-      url: "https://scholar.google.com/citations?user=_gsTEOIAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=6pv2AiMAAAAJ&hl=en"
     - label: "ResearchGate"
       icon: "ai ai-researchgate-square"
-      url: "https://www.researchgate.net/profile/Gangmin-Li"
+      url: "https://scholar.google.com/citations?user=6pv2AiMAAAAJ&hl=en"
 
 
 # Reading Files
@@ -302,5 +295,3 @@ defaults:
       related: true
 
 
-
-theme: jekyll-theme-architect
