@@ -5,7 +5,7 @@ gemspec
 
 gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
 gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
-
+gem 'tzinfo-data'
 
 group :jekyll_plugins do
   gem "jekyll-feed"
@@ -17,3 +17,5 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem 'jekyll-redirect-from'
 end
+
+gem "webrick", "~> 1.7"
