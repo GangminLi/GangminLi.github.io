@@ -2,11 +2,11 @@
 main:
   - title: "About"
     url: /about/
-  # - title: "Bioinformatics Blog"
-  #  url: /blog/
   - title: "Publications"
     url: /pub/
-  - title: "News"
-    url: /news/
+  - title: "Research"
+    url: /research/
+  - title: "Teach"
+    url: /teach/
   - title: "Resources"
     url: /res/

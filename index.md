@@ -1,5 +1,6 @@
 ---
 layout: home
+title: index
 author_profile: true
 ---
 #test
