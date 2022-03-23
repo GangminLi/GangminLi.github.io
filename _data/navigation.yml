@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Blog"
-    url: /blog/
+  - title: Home
+    url: /news/
   - title: "About"
     url: /about/
   - title: "Publications"
@@ -10,5 +10,5 @@ main:
     url: /research/
   - title: "Teach"
     url: /teach/
-  - title: "Resources"
-    url: /res/
+  - title: "Resource"
+    url: /blog/
