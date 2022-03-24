@@ -286,7 +286,6 @@ with imageio.get_writer(anim_file, mode='I') as writer:
 ```
 
 When finished, you should get something like this:
-![GAN_inAction.gif](/assets/images/PG_Project/GAN_inAction.gif)
 <img src="/assets/posts/IdentifyDeepfakes/GAN_inAction.gif"  >
 
 
