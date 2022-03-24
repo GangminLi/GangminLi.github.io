@@ -1,7 +1,7 @@
 ---
 title: "PG_Project 2: Identify Deepfakes with GAN"
 date: 2022-03-24 010:19:20
-permalink: PG_Project/IdentifyDeepfakes.html
+permalink: blog//IdentifyDeepfakes.html
 author_profile: true
 toc: true
 toc_label: "Page Content"

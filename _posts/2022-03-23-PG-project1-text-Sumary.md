@@ -1,7 +1,7 @@
 ---
 title: "PG_Project 1: Text Summarization With Deep Learning"
 date: 2022-03-23 010:19:20
-permalink: PG_Project/text_summary.html
+permalink: blog/text_summary.html
 author_profile: true
 toc: true
 toc_label: "Page Content"
@@ -56,7 +56,7 @@ Now, we’ll download and parse the article to extract the relevant attributes. 
 article.text
 ```
 <p align="center">
-<img src="../assets/images/PG_Project/deep-learning-tutorial.png" width="960">
+<img src="/assets/posts/text_summary/deep-learning-tutorial.png" width="960">
 </p>
 
 Clearly, this is quite long and dense. This text will serve as our input for the summarization algorithm that we’ll write in the next step.
@@ -140,7 +140,7 @@ summarize(article.text, 0.05)
 The output should look like this:
 
 <p align="center">
-<img src="../assets/images/PG_Project/text-summarization-2.png" width="960">
+<img src="/assets/posts/text_summary/text-summarization-2.png" width="960">
 </p>
 
 
