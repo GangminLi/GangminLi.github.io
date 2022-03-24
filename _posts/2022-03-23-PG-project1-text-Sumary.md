@@ -14,7 +14,6 @@ tags:
   - Python
 ---
 
-
 ## <span style="color:#33a8ff">Background</span>
 Text summarization is a Natural Language Processing (NLP) task that summarizes the information in large texts for quicker consumption without losing vital information. Your favourite news aggregator (such as Google News) takes advantage of text summarization algorithms in order to provide you with information you need to know whether the article is relevant or not without having to click the link.
 
@@ -25,9 +24,10 @@ There are two main text summarization methods:
 
 - Extractive Text Summarization – attempts to identify significant sentences and then adds them to the summary, which will contain exact sentences from the original text.
 - Abstractive Text Summarization – attempts to identify important sections, interpret the context and intelligently generate a summary.
+
 ## <span style="color:#33a8ff">Suggested procedures</span>
 
-### Step 1: Installing Text Summarization Python Environment
+### Step 1 - Installing Text Summarization Python Environment
 
 To follow along with the code in this article, you can download and install our pre-built Text Summarization environment, which contains a version of Python 3.8 and the packages used in this post.
 
@@ -56,7 +56,7 @@ Now, we’ll download and parse the article to extract the relevant attributes. 
 article.text
 ```
 <p align="center">
-<img src="/assets/images/PG_Project/deep-learning-tutorial.png" width="960">
+<img src="../assets/images/PG_Project/deep-learning-tutorial.png" width="960">
 </p>
 
 Clearly, this is quite long and dense. This text will serve as our input for the summarization algorithm that we’ll write in the next step.
@@ -140,7 +140,7 @@ summarize(article.text, 0.05)
 The output should look like this:
 
 <p align="center">
-<img src="/assets/images/PG_Project/text-summarization-2.png" width="960">
+<img src="../assets/images/PG_Project/text-summarization-2.png" width="960">
 </p>
 
 

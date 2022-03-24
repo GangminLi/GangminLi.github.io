@@ -18,7 +18,7 @@ tags:
   - Classification
 ---
 <p align="center">
-<img src="/assets/images/PG_Project/GAN_identifyDeepfakes.jpg">
+<img src="../assets/images/PG_Project/GAN_identifyDeepfakes.jpg">
 </p>
 
 ## <span style="color:#33a8ff">Introduction</span>
@@ -36,7 +36,7 @@ As I mentioned before, the core concept of GANs lies in pitting two neural netwo
 In theory, the generator will become increasingly better at creating images that resemble the original images throughout the training. On the other hand, the discriminator converges to a state where it cannot differentiate between the fake dataset and the original (or rather, the probability that it is a fake approaches 50%). This process is illustrated below: 
 
 <p align="center">
-<img src="/assets/images/PG_Project/GANprocess.png"  >
+<img src="../assets/images/PG_Project/GANprocess.png"  >
   </p>
 
 ## <span style="color:#33a8ff">How To Implement A GAN With TensorFlow</span>
@@ -108,7 +108,7 @@ plt.show()
 ```  
 
 <p align="center">
-<img src="/assets/images/PG_Project/RandomBitmap.png"  >
+<img src="../assets/images/PG_Project/RandomBitmap.png"  >
   </p>
   
 The net successfully creates an image matching the 28 x 28 pixel size with sufficient randomness. To see a summary of the layers of the net:
@@ -118,7 +118,7 @@ generator.summary()
 
 ```
 
-<img src="/assets/images/PG_Project/GeneratorSummary.png"  >
+<img src="../assets/images/PG_Project/GeneratorSummary.png"  >
 
 Now we can do something similar to make the discriminator network:
 
@@ -163,7 +163,7 @@ Of course, the model is not trained yet, but the idea is to output positive valu
 discriminator.summary()
 ```
 
-<img src="/assets/images/PG_Project/DiscriminatorSummary.png"  >
+<img src="../assets/images/PG_Project/DiscriminatorSummary.png"  >
 
 Now that we have both the networks in place, we need to define loss functions for each. As mentioned previously, we want the discriminator to output more positive numbers for real images and more negative numbers for fake images. To implement this, we compare the discriminator’s predictions on real images to an array of 1s, and the discriminator’s predictions on fake images to an array of 0s.
 
@@ -288,7 +288,7 @@ with imageio.get_writer(anim_file, mode='I') as writer:
 
 When finished, you should get something like this:
 
-<img src="/assets/images/PG_Project/GAN_inAction.gif"  >
+<img src="../assets/images/PG_Project/GAN_inAction.gif"  >
 
 
 ## <span style="color:#33a8ff">Conclusion</span> 
