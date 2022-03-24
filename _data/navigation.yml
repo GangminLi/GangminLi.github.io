@@ -10,3 +10,5 @@ main:
     url: /teach/
   - title: "Resource"
     url: /blog/
+  - title: "Consultancy"
+    url: /cons/

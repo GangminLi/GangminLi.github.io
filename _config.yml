@@ -27,6 +27,7 @@ repository               : "GangminLi/GangminLi.github.io"
 teaser                   : "/assets/images/data.jpg"
 logo                     : #"/assets/images/me.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -62,6 +63,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -89,7 +91,6 @@ analytics:
   google:
     tracking_id          : "UA-115112853-1"
     anonymize_ip         : false # true, false (default)
-
 
 
 # Site Author
@@ -160,6 +161,17 @@ footer:
       icon: "ai ai-researchgate-square"
       url: "https://www.researchgate.net/profile/Gangmin-Li"
 
+# collections settings
+collections:
+  PG_projects:
+    order:
+      - project1.md
+      - project2.md
+      - project3.md
+      - project4.md
+      - project5.md
+    output: true
+
 
 # Reading Files
 include:
@@ -227,7 +239,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 1 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Etc/GMT
 
@@ -298,7 +310,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
 
