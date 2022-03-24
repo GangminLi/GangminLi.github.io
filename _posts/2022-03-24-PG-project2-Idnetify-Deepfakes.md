@@ -20,6 +20,8 @@ tags:
 
 ![GAN_identifyDeepfakes](/assets/images/PG_Project/GAN_identifyDeepfakes.jpg)
 
+![steam-fish-1]({{ "/assets/images/PG_Project/GAN_identifyDeepfakes.jpg" | absolute_url }})
+
 
 ## <span style="color:#33a8ff">Introduction</span>
 The rise of synthetic media created using powerful techniques from Machine Learning (ML) and Artificial Intelligence (AI), has garnered attention across multiple industries in recent years. Deepfakes, as they are aptly named, have been used to [misrepresent well-known politicians](https://www.aargauerzeitung.ch/leben/digital/wenn-merkel-ploetzlich-trumps-gesicht-traegt-die-gefaehrliche-manipulation-von-bildern-und-videos-132155720) in videos, [impersonate female celebrities](https://www.rollingstone.com/culture/culture-news/deepfakes-nonconsensual-porn-study-kpop-895605/) in pornography, and in [social engineering schemes](https://www.theverge.com/2019/9/5/20851248/deepfakes-ai-fake-audio-phone-calls-thieves-trick-companies-stealing-money), enabling identity theft and other fraudulent behavoir. 
