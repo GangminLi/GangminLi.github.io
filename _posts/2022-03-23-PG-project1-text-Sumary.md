@@ -12,6 +12,8 @@ tags:
   - Natural Language Processing
   - Text summarization
   - Python
+header:
+  teaser: "/assets/posts/text_summary/deep-learning-tutorial.png"
 ---
 
 ## <span style="color:#33a8ff">Background</span>

@@ -8,7 +8,7 @@ main:
     url: /research/
   - title: "Teach"
     url: /teach/
-  - title: "Resource"
-    url: /blog/
   - title: "Consultancy"
     url: /cons/
+  - title: "Resource"
+    url: /blog/

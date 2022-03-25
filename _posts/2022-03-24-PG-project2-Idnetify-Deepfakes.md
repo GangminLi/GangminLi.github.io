@@ -16,6 +16,9 @@ tags:
   - Machine learning
   - Statistics
   - Classification
+header:
+  teaser: "/assets/posts/IdentifyDeepfakes/GAN_identifyDeepfakes.jpg"
+
 ---
 
 ![GAN_identifyDeepfakes](/assets/posts/IdentifyDeepfakes/GAN_identifyDeepfakes.jpg)
@@ -294,7 +297,7 @@ When finished, you should get something like this:
 The Best Way To Combat Deepfakes Is To Use The Same Technique That Produces Them: GAN. 
 
 ## <span style="color:#33a8ff">References</span>
-- Smaple code on my github repo.
+- Sample code on my github repo.
 - [TensorFlow Optimization Showdown: ActiveState vs. Anaconda](https://www.activestate.com/blog/tensorflow-optimization-showdown-activestate-vs-anaconda/)
 - [Deploying a Dog Identification TensorFlow Model Using Python and Flask](https://www.activestate.com/blog/dog-identification-tensorflow-model-python-flask/)
 

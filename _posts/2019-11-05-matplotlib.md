@@ -12,6 +12,10 @@ tags:
   - matplotlib
   - visualization
   - data report
+  
+header:
+  teaser: "/assets/posts/matplotlib/matplotimage.png"
+
 ---
 
 <p>
