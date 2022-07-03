@@ -245,7 +245,7 @@ Set up the main page of the application and create a view for the scatter chart.
 
 1. Replace the `app.route()` code fragment in the **`app.py`** file with the following code:
 
-    ```python
+```python
     @app.route('/')
     def main():
         """Entry point; the view for the main page"""
@@ -258,7 +258,7 @@ Set up the main page of the application and create a view for the scatter chart.
         """The view for rendering the scatter chart"""
         img = get_main_image()
         return send_file(img, mimetype='image/png', cache_timeout=0)
-    ```
+```
 2. Apply the suggested quick fixes to add the missing import statements.
 
 3. Note that PyCharm highlights **`main.html`** because you have not created this file yet.
@@ -267,7 +267,7 @@ Set up the main page of the application and create a view for the scatter chart.
 
     With PyCharm intention action you can quickly create the missing template file. Press **Alt+Enter** and select **Create template main.html** from the context menu. Confirm the name and location of the template file and click **OK**. As the result, the **`main.html`** will be added to the **templates** directory. Open the newly added file and paste the following code into it:
 
-    ```html
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -292,8 +292,7 @@ Set up the main page of the application and create a view for the scatter chart.
         </div>
     </body>
     </html>
-
-    ```
+```
 
     Note that ·{{ city_name }}· in this fragment is a [jinja2](http://jinja.pocoo.org/) template variable used to pass the `city_name` Python variable to the HTML template.
 
@@ -357,7 +356,7 @@ To provide application users with the detailed information about climate of a pa
         return img
     ```
 
-    This function plots two linear charts: monthly *Mean Daily Temperature and Average Relative Humidity* for each city. Similarly to the **`get_main_image`** function, it saves the chart in an   image.
+This function plots two linear charts: monthly *Mean Daily Temperature and Average Relative Humidity* for each city. Similarly to the **`get_main_image`** function, it saves the chart in an image.
 
 2. Create one more **.html** file to show the line charts.
 
@@ -373,7 +372,7 @@ To provide application users with the detailed information about climate of a pa
     </head>
     <body>
         <div id="element1">
-            <img src="{{ url_for('city_plot', city_id=city_id) }}" alt="Image">
+            <img src="{{url_for('city_plot', city_id=city_id)}}" alt="Image">
         </div>
         <div id="element2">
             <p>This graph shows mean daily temperature and average relative humidity in {{ city_name }}.</p>
@@ -403,7 +402,7 @@ To provide application users with the detailed information about climate of a pa
    ```
     Don't forget to use the quick fixes **Alt+Enter** to add the missing import statements.
 
-4. Now modify the **`main.html`** file to populate the list of the cities with the links to the corresponding *city/** page. Replace `<li><a href="">{{ city_name }}</a></li>` with `<li><a href="{{ url_for('city', city_id=city_id) }}">{{ city_name }}</a></li>`.
+4. Now modify the **`main.html`** file to populate the list of the cities with the links to the corresponding *city/** page. Replace `<li><a href="">{{ city_name }}</a></li>` with `<li><a href="{{url_for('city', city_id=city_id)}}">{{ city_name }}</a></li>`.
 
 Rerun the Run/Debug configuration to restart the application and click the link that leads to Paris. You should expect to get navigated to the **city/2** page.
 
@@ -540,7 +539,7 @@ The last remaining step is to enable editing of the meteo data.
                                        oninput="temp_output{{ loop.index0 }}.value=this.value" >
                             </td>
                             <td>
-                                <output name="temp_output{{ loop.index0 }}">{{ '%0.2f' % meteo[0][loop.index0]|float }}</output>
+                                <output name="temp_output{{ loop.index0 }}">{{''%0.2f' % meteo[0][loop.index0]|float}}</output>
                                 <label> C</label>
                             </td>
                             <td>
