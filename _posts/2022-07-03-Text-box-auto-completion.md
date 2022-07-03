@@ -18,7 +18,7 @@ tags:
   - Ajax
 
 header:
-  teaser: "/assets/posts/web/slides.jpg"
+  teaser: "/assets/posts/autocomplete/autocomplete.jpg"
 ---
 ![autocomplete](/assets/posts/autocomplete/autocomplete.jpg)
 
