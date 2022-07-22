@@ -1,5 +1,5 @@
 ---
-title: "Stay above the weather: Creating Web Applications with Flask"
+title: "UG Web development project： Creatting Web Applications with Flask"
 style:  app
 date: 2022-03-26 07:19:20
 permalink: blog/WebAppFlask.html
@@ -8,6 +8,7 @@ toc: true
 toc_label: "Page Content"
 
 tags:
+  - UG Project
   - Web development
   - Flask
   - Web application
@@ -277,7 +278,7 @@ Set up the main page of the application and create a view for the scatter chart.
     </head>
     <body>
         <div id="element1">
-            <img src="{{ url_for('main_plot') }}" alt="Image">
+            <img src="{{url_for('main_plot')}}" alt="Image">
         </div>
         <div id="element2">
             <p>What city has the best climate?</p>

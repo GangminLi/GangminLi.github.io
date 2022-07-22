@@ -1,5 +1,5 @@
 ---
-title: "Predictive Modeling Of Air Quality"
+title: "UG Research project: Predictive Modeling Of Air Quality"
 style:  app
 date: 2022-03-27 14:46:20
 permalink: blog/Air.html
@@ -8,10 +8,12 @@ toc: true
 toc_label: "Page Content"
 
 tags:
-  - UG project
+  - UG Project
+  - Research project
+  - Data Science
+  - Predictive model
   - Data cleaning
   - Feature engineering
-  - Predictive model
   - Python
   - Xgboost
   - Model fine tune
@@ -27,7 +29,7 @@ As computational power and the sheer amount of available data increases, the via
 
 ## Modeling Weather vs Particulate Matter Concentration
 
-The [dataset](https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data)we will be using is from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and contains two different sets of information:
+The [dataset](https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data) we will be using is from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) and contains two different sets of information:
 
 - Hourly meteorological data from the Beijing Capital International Airport.
 - PM2.5 data from the US Embassy in Beijing.
@@ -47,7 +49,7 @@ data_df.head()
 ```
 If you are Lucky, like this data, it is in relatively good shape. The output should look like this:
 
-![whether data](/assets/posts/air/weatherData.png)
+![whether data](/assets/posts/air/WeatherData.png)
 
 The first thing to note is that four of the features are all time indicators for each observation. These can easily be coerced into a single feature:
 
