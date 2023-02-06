@@ -110,6 +110,8 @@ Write MIPS code for calculating a recursive sequence as:
 ![mq](/assets/posts/openai/Screenshot 3.png "GPT3 Answer")
 ![GPT3](/assets/posts/openai/Screenshot 4.png "GPT3 Answer")
 ![GPT3](/assets/posts/openai/Screenshot 5.png "GPT3 Answer")
+![GPT3](/assets/posts/openai/Screenshot 6.png "GPT3 Answer")
+![GPT3](/assets/posts/openai/Screenshot 7.png "GPT3 Answer")
 
 ## Summary
 I have no doubt that GPT3 cvan definitly write code. My concern is that if I give this task to student, the studetn can simple opy and paste my question to GPT3 and get answer!
