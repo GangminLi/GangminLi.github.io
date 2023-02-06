@@ -1,19 +1,19 @@
 ---
-title: "PHP Frameworks - Laravel"
+title: "Build a simple store locator with Google Maps Platform (JavaScript)"
 style:  app
-date: 2022-07-22 16:12:20
-permalink: blog/Laravel.html
+date: 2022-09-20 16:12:20
+permalink: blog/googlemap.html
 author_profile: true
 toc: true
 toc_label: "Page Content"
 
 tags:
   - Web application development
-  - PHP
-  - Laravel
-  - Frameworks
-  - MVC
-  - Web development
+  - Google Map
+  - Map marker
+  - localtion search
+  - distance calculation
+  - multiple marker
   
 
 header:
