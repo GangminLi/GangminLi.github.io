@@ -1,19 +1,19 @@
 ---
-title: "My conversation with GPT3"
+title: "My experiment with ChatGPT"
 style:  app
-date: 2023-02-06 12:12:20
+date: 2023-02-05 10:12:20
 
 author_profile: true
-
+toc: true
 toc_label: "Page Content"
 
 tags:
+  - Prompt Engineering
   - OpenAI
   - GPT3
   - AI
-  - auto code
-  - ASSMEBLY
-  - MIPS
+  - NLP
+
   
 
 header:
