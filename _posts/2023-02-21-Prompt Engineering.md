@@ -18,7 +18,7 @@ tags:
   
 
 header:
-  teaser: "/assets/posts/openai/prompt engineering.png"
+  teaser: "/assets/posts/openai/pe.jpg"
 ---
 ![Langague](/assets/posts/prompt/brooks.jpg)
 
