@@ -51,7 +51,7 @@ Prompt creation follows three main guidelines:
 - **Check your settings:** The top_p and temperature settings determine how predictable the model is in providing a response. If you're asking it for a response where there's only one right answer, then you'd want to set these lower. If you're looking for more diverse responses, then you might want to set them higher. The number one mistake people use with these settings is assuming that they're "cleverness" or "creativity" controls.
 
 ## Prompt engineering use GPT3 playground
-Let su use GPT3 playground to show how prompt engineeering can be done for text classification task. 
+Let us use GPT3 playground to show how prompt engineeering can be done for text classification task. 
 **Prompt**
 
 ``` 
