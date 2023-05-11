@@ -100,11 +100,18 @@ Once you have chosen your avatar, it's time to record or generate the audio for 
 Play.ht allows you to get 300 words for free whenever you first sign up so if you're wanting higher quality audio I would definitely recommend checking it out once you get logged in to play.ht you can just click create audio and I would recommend selecting use ultra realistic voices and from here you can simply just paste in the script that you copied previously from chatgpt. From here you can try out the different voices and find which one works best for you.
 
 Here is an example of the voice generatred useing [Play.ht](/assets/posts/movies/information.mp3)
+<audio controls="controls">
+  <source type="audio/mp3" src="/assets/posts/movies/information.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 Another software I have used is called ["llElevenLabs"](https://beta.elevenlabs.io/speech-synthesis). It is specialised in creating high quality AI voice-overs and their technology allowed me to have a voice that's natural and engaging.
 
 Here is an example of the voice generatred useing [llElevenLabs](/assets/posts/movies/audio by 11labs.mp3)
-
+<audio controls="controls">
+  <source type="audio/mp3" src="/assets/posts/movies/audio by 11labs.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ## Step 3: Animate Your Avatar
 Now it's time to do the fun part - animate your avatar! We will make a video that using our Avatar to speak out our audio file. 
@@ -114,8 +121,7 @@ Once you get logged in you just want to go ahead and click on create a video thi
 
 Here is one of the clips that I have produced.
 
- - [![clip 1](assets/posts/movies/Avatar-Grenn.png)](/assets/posts/movies/video-1.mp4)
-
+ - [![clip](assets/posts/movies/Avatar-Grenn.png)](/assets/posts/movies/video-1.mp4)
 
 There are many other animation tools make it easy to create lifelike movements and expressions for your avatar. You can choose from a variety of pre-made animations or create your own custom animations to give your video a personal touch.
 
