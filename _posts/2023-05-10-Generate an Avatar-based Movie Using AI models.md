@@ -1,7 +1,7 @@
 ---
-title: "Generate an Avatar- based Movies Using AI models"
+title: "Generate an Avatar-based Movie Using AI models"
 style:  app
-date: 2023-03-05 10:12:20
+date: 2023-05-10 10:12:20
 
 author_profile: true
 toc: true
