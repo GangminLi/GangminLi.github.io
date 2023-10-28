@@ -114,7 +114,7 @@ Write MIPS code for calculating a recursive sequence as:
 ![GPT3](/assets/posts/openai/Screenshot 7.png "GPT3 Answer")
 
 ## Summary
-I have no doubt that GPT3 cvan definitly write code. My concern is that if I give this task to student, the studetn can simple opy and paste my question to GPT3 and get answer!
+I have no doubt that GPT3 can definitly write code. My concern is that if I give this task to student, the studetn can simple opy and paste my question to GPT3 and get answer!
 
 For details of GPT3, see [OpenAI](https://openai.com/api/)
 
