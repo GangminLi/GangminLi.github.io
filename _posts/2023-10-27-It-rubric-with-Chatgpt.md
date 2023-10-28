@@ -1,5 +1,5 @@
 ---
-title: "Generate a course assessemnt rubric using ChatGPT"
+title: "Generate a course assessement rubric using ChatGPT"
 style: app
 date: 2023-10-27 10:12:20
 
@@ -75,7 +75,7 @@ Generate the rubric in the form of a table. The first row heading for the table 
 
 This is the result from ChatGPT.
 
-![result](/assets/posts/rubric/screenshot.png)
+![result](/assets/posts/rubric/Screenshot.png)
 
 You can generate multiple results to do a comparision, until you are satisfied.
 <p>

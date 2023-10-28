@@ -1,4 +1,4 @@
 1. open a CMD prompt
-2. goto C:\Users\gli46.LAPTOP-C3R6V17R\Documents\GitHub>cd GangminLi.github.io
+2. goto C:\Users\gli46.LAPTOP-C3R6V17R\Documents\GitHub\GangminLi.github.io
 2. type bundle exec jekyll serve
 3. goto localhost: http://127.0.0.1:4000
