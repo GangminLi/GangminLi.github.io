@@ -26,7 +26,7 @@ header:
 
 
 # What is rubric?
-This is what the bing tells me. A rubric is a tool used to evaluate or grade an assignment or task. It is a set of instructions or rules that articulate the expectations for assignments and performance tasks by listing criteria, and for each criteria, describing levels of quality. Rubrics contain four essential features: 
+This is what the bing tells me. "A rubric is a tool used to evaluate or grade an assignment or task. It is a set of instructions or rules that articulate the expectations for assignments and performance tasks by listing criteria, and for each criteria, describing levels of quality". Rubrics contain four essential features: 
 ![perspective](/assets/posts/rubric/rubric-des.png)
 1. a task description or a descriptive title of the task students are expected to produce or perform; 
 2. a scale (and scoring) that describes the level of mastery; 
